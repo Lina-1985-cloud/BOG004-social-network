@@ -1,0 +1,105 @@
+/* INICIO estilos para secciones registro y login */
+body{
+    font-size: 1em;
+}
+.log-sig{
+    max-width: 300px;
+    max-height: 600px;
+}
+.log-sig-container{
+    gap: 35px;
+}
+/* FIN estilos para secciones registro y login */
+/* INICIO estilos para seccion muro */
+.wall-nav{
+    padding: 5px 20px 5px 20px;
+}
+.wall-nav img{
+    width: 60px;
+}
+.wall-nav-container {
+    width: 25vw;
+    font-size: 2.5rem;
+}
+.wall-posts-container{
+    font-size: 2em;
+}
+.container-slider{
+    min-height: 48%;
+    /* padding: 1em; */
+}
+.container-slider .slider-btn{
+    font-size: 3.5em;
+}
+.post-container{
+    font-size: .8em;
+}
+.post-container-user{
+    width: 8%;
+    display: flex;
+}
+.post-container-user img{
+    width: 50px;
+    margin-right: 15px;
+}
+.post-container-events{
+    width: 95%;
+    margin: 0 auto;
+}
+.post-user-like{
+    font-size: .8em;
+}
+
+.fa-heart{
+    font-size: 2em;
+}
+/* FIN estilos para seccion muro */
+
+/* Inicio estilos Modal */
+.modal-container-header h2{
+    font-size: 1.5rem;
+}
+.modal-container-user-icon img{
+    width: 60px;
+}
+.wall-nav-pic .fa-user{
+    font-size: 1em;
+}
+
+.modal-container-category i{
+    font-size: 2rem;
+}
+.modal-user-name{
+    font-size: 1.5rem;
+}
+.modal-container-category{
+    font-size: 2em;
+}
+.inp-post-modal-post{
+    font-size: 1.2em;
+}
+
+.inp-post-modal-post::placeholder{
+    font-size: 1.5em;
+}
+
+textarea {
+    resize: none;
+}
+.modal-btn-post-inactive{
+    font-size: 1.5rem;
+
+}
+.modal-container{
+    max-width: 600px;
+}
+.modal-container-user-icon i{
+    font-size: 2.5em;
+}
+.modal-container-user{
+    width: 15%;
+}
+.post-btn-edit-publication, .post-btn-save-publication, .post-btn-delete-publication{
+    padding: .2em .8em;
+    font-size: .6em;
+}

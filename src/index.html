@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <script type="module" src="main.js"></script>
-</body>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 680px)"/>
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1000px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3485eef86c.js" crossorigin="anonymous"></script>
+    <title>BeMusic</title>
+    <link rel='icon' href='./assets/images/logobemusic.png'>
+  </head>
+  <body>
+
+    <div class='notification'>Hola soy prueba de error</div>
+
+    <!-- En esta seccion se cargaran nuestras vistas dinamicamente -->
+    <section class='router-container' id='routers-container'></section>
+
+    <script type='module' src='./main.js'></script>
+    <script type='module' src='./firebase-init.js'></script>
+  </body>
 </html>

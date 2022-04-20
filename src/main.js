@@ -1,5 +1,10 @@
-// Este es el punto de entrada de tu aplicacion
+// se importa funcion de router para cambios de vistas
+import { changeView } from './router.js';
 
-import { myFunction } from './lib/index.js';
+// funcion init para cargar vistas y eventos dentro de las vistas
+const init = () => {
+  changeView(window.location.hash);
+  window.addEventListener('hashchange', () => changeView(window.location.hash));
+};
 
-myFunction();
+window.addEventListener('load', init);

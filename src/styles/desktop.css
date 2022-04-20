@@ -1,0 +1,24 @@
+.wall-nav-container {
+    width: 10vw;
+}
+.wall-categories{
+    width: 95%;
+    padding: 20px;
+}
+.wall-categories h2{
+    padding: 15px;
+    font-size: 3rem;
+}
+.wall-categ-button{
+    border: none;
+    width: 15%;
+    border-radius: 1rem;
+    padding: .8rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: var(--textwhite);
+}
+.wall-categ-container{
+    display: flex;
+    justify-content: space-between;
+}
